@@ -13,7 +13,7 @@ $obj = new stdClass();
 $obj->slug = 'plugin.php';  
 $obj->name = 'Plugin';
 $obj->plugin_name = 'plugin.php';
-$obj->new_version = '1.1';
+$obj->new_version = '1.3';
 // the url for the plugin homepage
 $obj->url = 'http://www.example.com/plugins/my-plugin';
 //the download location for the plugin zip file (can be any internet host)

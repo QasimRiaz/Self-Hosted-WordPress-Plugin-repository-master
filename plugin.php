@@ -4,7 +4,7 @@
  Plugin URI: http://omarabid.com
  Description: Plugin with auto-updates
  Author: Abid Omar
- Version: 1.1
+ Version: 1.2
  */
 
 // Load the auto-update class
@@ -12,10 +12,10 @@ add_action( 'init', 'activate_au' );
 function activate_au()
 {
 	require_once ( 'wp_autoupdate.php' );
-	$plugin_current_version = '1.1';
+	$plugin_current_version = '1.2';
 	$plugin_remote_path = plugin_dir_url( __FILE__ ) . 'update.php';
         
-        echo $plugin_remote_path;exit;
+       
         
 	$plugin_slug = plugin_basename( __FILE__ );
 	$license_user = 'user';
